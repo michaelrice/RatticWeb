@@ -1,7 +1,10 @@
 RatticWeb
 =========
 
-Build Status: [![Build Status](https://travis-ci.org/tildaslash/RatticWeb.png?branch=master)](https://travis-ci.org/tildaslash/RatticWeb)
+I found the original RatticWeb when I was looking for an enterprise solution for password management and it was close but 
+missing a piece or two. So I did what any self-respecting Linux guy would do, I said "fork it". Initially, the only difference
+is that it now it has encryption of the password field in the database. If you find this, please do not bug the RatticDB 
+folks with support for this. You will use it at your own risk.
 
 RatticWeb is the website part of the Rattic password management solution, which allows you to easily manage your users and passwords.
 
