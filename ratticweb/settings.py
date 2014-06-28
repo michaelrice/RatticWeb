@@ -349,3 +349,7 @@ if LDAP_ENABLED:
         ldap.OPT_X_TLS_REQUIRE_CERT: confgetbool('ldap', 'requirecert', True),
         ldap.OPT_REFERRALS: confgetbool('ldap', 'referrals', False),
     }
+try:
+    ENCRYPTED_FIELDS_KEYDIR = config.get('ratticweb', 'keystore')
+except:
+    ENCRYPTED_FIELDS_KEYDIR = None
